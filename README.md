@@ -60,5 +60,5 @@ _Run ``source [bash/zsh profile path]`` from the terminal window in order for th
     - _deviceName: To get your device name, you can run ``adb devices`` in a terminal window while either your device is connected via USB or an emulator is open._
     - _deviceVersion: This is the OS version of the device. It can be found under Settings > About phone_
 2. In the root directory of the project, run the following command from a terminal window:
-``gradle test --rerun-tasks``
+``gradle test -d --rerun-tasks``
 3. Once the test suite has finished executing, a Cucumber report can be found in ``src/test/resources/reports/cucumber.html``
