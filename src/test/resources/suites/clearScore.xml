@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClearScore Web Test Suite" parallel="none"> <!-- Tests can run in parallel through multiple runners-->
+    <test name="ClearScore_Web_Tests">
+        <classes>
+            <class name="runners.CucumberRunner"/> <!-- Specifies which runner to use -->
+        </classes>
+    </test>
+</suite>
