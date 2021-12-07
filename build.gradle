@@ -17,10 +17,10 @@ dependencies {
 }
 
 test {
-    testLogging.showStandardStreams = false
+    testLogging.showStandardStreams = false // Controls whether or not to show the logs
     useTestNG() {
         useDefaultListeners = true
         suites 'src/test/resources/suites/clearScore.xml' // Tells gradle which TestNG xml file to run
     }
-    scanForTestClasses = false
+    scanForTestClasses = false // Automatically searches for tests so set to false so I can run suites
 }
